@@ -36,7 +36,7 @@
 # Since the upstream project is written in Python, reStructuredText will be the documentation language of this project, and thus the main language
 *.rst linguist-detectable=true
 *.rst linguist-documentation=false
-*.rst linguist-language=ReStructured-Text
+*.rst linguist-language=reStructuredText
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -168,7 +168,7 @@
 # File info
 
 # File type: gitattributes file (*.gitattributes)
-# File version: 5 (2023, Friday, January 27h at 1:31 pm PST)
+# File version: 6 (2023, Friday, January 27h at 1:35 pm PST)
 # Line count (including blank lines and compiler line): 175
 
 # End of script
