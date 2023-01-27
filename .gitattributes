@@ -32,6 +32,11 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# ReStructuredText
+# Since the upstream project is written in Python, reStructuredText will be the documentation language of this project, and thus the main language
+*.rst linguist-detectable=true
+*.rst linguist-documentation=false
+*.rst linguist-language=ReStructured-Text
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -102,10 +107,6 @@
 *.txt linguist-detectable=false
 *.txt linguist-documentation=false
 *.txt linguist-language=Plain-Text
-# ReStructuredText
-*.rst linguist-detectable=false
-*.rst linguist-documentation=false
-*.rst linguist-language=ReStructured-Text
 # WikiText
 *.wiki linguist-detectable=false
 *.wiki linguist-documentation=false
@@ -161,10 +162,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Friday, January 27h at 1:31 pm PST)
+# Line count (including blank lines and compiler line): 175
+
 # End of script
